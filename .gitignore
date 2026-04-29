@@ -1,0 +1,7 @@
+scripts/
+__pycache__/
+*.pyc
+.DS_Store
+CLAUDE.md
+.agents/
+.planning/
