@@ -1,0 +1,67 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F1B33"/>
+      <stop offset="100%" stop-color="#1B2A4A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.55">
+      <stop offset="0%" stop-color="#B45309" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hex" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
+      <path d="M30 0L60 17.32v17.32L30 52L0 34.64V17.32L30 0z" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#hex)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Decorative hex cluster (top-right) -->
+  <g opacity="0.32" transform="translate(940, 70)">
+    <polygon points="60,0 110,28.87 110,86.6 60,115.47 10,86.6 10,28.87" fill="none" stroke="#D97706" stroke-width="1.5"/>
+    <polygon points="170,0 220,28.87 220,86.6 170,115.47 120,86.6 120,28.87" fill="none" stroke="#D97706" stroke-width="1.5" opacity="0.6"/>
+    <polygon points="115,86.6 165,115.47 165,173.2 115,202.07 65,173.2 65,115.47" fill="none" stroke="#D97706" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- Brand tile + hex bolt logo -->
+  <g transform="translate(80, 168)">
+    <rect width="80" height="80" rx="16" fill="#0F1B33" stroke="#B45309" stroke-width="2"/>
+    <polygon points="40,15 56,25 56,42.5 40,52.5 24,42.5 24,25" fill="#B45309"/>
+    <circle cx="40" cy="33.75" r="5" fill="#0F1B33"/>
+    <line x1="40" y1="52.5" x2="40" y2="68" stroke="#B45309" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="180" y="227" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-weight="800" font-size="62" fill="#FFFFFF" letter-spacing="-1.5">SubForge</text>
+
+  <!-- Tagline -->
+  <text x="82" y="305" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-weight="400" font-size="28" fill="#94A3B8">Commercial Construction Contractor Intelligence</text>
+
+  <!-- Divider -->
+  <rect x="82" y="335" width="64" height="4" rx="2" fill="#B45309"/>
+
+  <!-- Value prop -->
+  <text x="82" y="392" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-weight="500" font-size="26" fill="#E2E8F0">License-verified contractor data for every</text>
+  <text x="82" y="428" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-weight="500" font-size="26" fill="#E2E8F0">commercial trade. GCs, MEP, concrete, steel,</text>
+  <text x="82" y="464" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-weight="500" font-size="26" fill="#E2E8F0">drywall, glazing, and 20+ more.</text>
+
+  <!-- Stat tags -->
+  <g transform="translate(82, 504)" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-size="15" font-weight="700" letter-spacing="0.06em">
+    <rect x="0" y="0" width="170" height="38" rx="19" fill="#0F1B33" stroke="#B45309" stroke-width="1"/>
+    <text x="20" y="25" fill="#D97706">1.2M+ CONTRACTORS</text>
+
+    <rect x="186" y="0" width="158" height="38" rx="19" fill="#0F1B33" stroke="#B45309" stroke-width="1"/>
+    <text x="206" y="25" fill="#D97706">25+ TRADE TYPES</text>
+
+    <rect x="360" y="0" width="130" height="38" rx="19" fill="#0F1B33" stroke="#B45309" stroke-width="1"/>
+    <text x="380" y="25" fill="#D97706">50 STATES</text>
+  </g>
+
+  <!-- URL -->
+  <text x="82" y="595" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-weight="700" font-size="20" fill="#B45309" letter-spacing="0.02em">getsubforge.com</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="622" width="1200" height="8" fill="#B45309"/>
+</svg>
